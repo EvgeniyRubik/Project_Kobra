@@ -1,0 +1,162 @@
+.footer_top-box{
+	margin: auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	width: 1600px;
+	height: 448px;
+	background-color: rgba(244, 244, 244, 0.7);
+}
+
+.footer_img{
+	width: 1600px;
+	position: absolute;
+	z-index: -1;
+}
+
+.footer_citation{
+	font-size: 20px;
+	width: 359.45px;
+	height: 225px;
+	text-align: center;
+}
+
+.footer_citation span{
+	font-family: "Lato-Italic";
+}
+
+.footer_subscribe{
+}
+
+.subscribe_text{
+	text-align: center;
+	font-size: 18px;
+	margin-bottom: 32px;
+}
+
+.subscribe_text span{
+	font-family: 'Lato-Bold';
+	font-size: 24px;
+}
+
+.subscribe_form{
+	width: 356px;
+	height: 49px;
+	border: none;
+}
+
+.subscribe_fieldset{
+	border: none;
+}
+
+.subscribe_form-email{
+	width: 232px;
+	height: 47px;
+	padding: 0 0 0 20px;
+	background-color: #E1E1E1;
+	border: 1px solid #E1E1E1;
+	border-radius: 45px 0 0 45px;
+	outline:none;
+}
+
+.subscribe_form-button{
+	width: 96px;
+	height: 49px;
+	background-color: #F16D7F;
+	border: 1px solid #F16D7F;
+	border-radius: 0 45px 45px 0;
+	color: #ffffff;
+    cursor: pointer;
+}
+
+
+
+.footer_bottom{
+	background-color: #222224;
+}
+
+.footer_bottom-box{
+	width: 1600px;
+	height: 79px;
+	margin: auto;
+	display: flex;
+	justify-content: space-around;
+	justify-item: center;
+	align-items: center;
+}
+
+.footer_bottom-left{
+	display: flex;
+	align-items: center;
+}
+
+.footer_bottom-left-text{
+	color: #FBFBFB;
+}
+
+.footer_bottom-right{
+	width: 148px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.facebook_blok{
+	display: block;
+	text-align: center;
+	line-height: 2;	
+	width: 32px;
+	height: 32px;
+	background: #fff;
+	color: #000;
+}
+
+.facebook_blok:hover{
+	color: #fff;
+	background: #F16D7F;
+}
+
+.instagram_blok{
+	display: block;
+	text-align: center;
+	line-height: 2;	
+	width: 32px;
+	height: 32px;
+	background: #fff;
+	color: #000;
+}
+
+.instagram_blok:hover{
+	color: #fff;
+	background: #F16D7F;
+}
+
+.pinterest_blok{
+	display: block;
+	text-align: center;
+	line-height: 2;	
+	width: 32px;
+	height: 32px;
+	background: #fff;
+	color: #000;
+}
+
+.pinterest_blok:hover{
+	color: #fff;
+	background: #F16D7F;
+}
+
+.twitter_blok{
+	display: block;
+	text-align: center;
+	line-height: 2;	
+	width: 32px;
+	height: 32px;
+	background: #fff;
+	color: #000;
+
+}
+
+.twitter_blok:hover{
+	color: #fff;
+	background: #F16D7F;	
+}
