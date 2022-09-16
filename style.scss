@@ -15,6 +15,9 @@ a {
 p {
     margin: 0;
 }
+ul {
+    margin: 0;
+}
 
 						/*!!!!!_____MAIN_____!!!!!*/
 
@@ -781,6 +784,7 @@ p {
 .page-sec {
     display: flex;
     justify-content: center;
+    margin-bottom: 96px;
 }
 
 .pagination {
@@ -815,6 +819,7 @@ p {
     color: $pagination-active-color;
     background-color: $pagination-active-bg;
     border-color: $pagination-active-border-color;
+    font-weight: 700;
 }
 
 .page-link:focus {
@@ -823,6 +828,7 @@ p {
     border-color: $pagination-active-border-color;
     box-shadow: $pagination-focus-box-shadow;
     outline: $pagination-focus-outline;
+    font-weight: 700;
 }
 
 .page-arrow {

@@ -34,6 +34,10 @@ p {
   margin: 0;
 }
 
+ul {
+  margin: 0;
+}
+
 /*!!!!!_____MAIN_____!!!!!*/
 /*-----header-----*/
 .header {
@@ -346,7 +350,7 @@ p {
 
 /*-----item-----*/
 .item_container {
-  margin: 128px auto 128px auto;
+  margin: 128px auto 18px auto;
   text-align: center;
 }
 
@@ -1116,6 +1120,7 @@ p {
 .page-sec {
   display: flex;
   justify-content: center;
+  margin-bottom: 96px;
 }
 
 .pagination {
@@ -1149,6 +1154,7 @@ p {
   color: #000;
   background-color: #FFF;
   border-color: #FFF;
+  font-weight: 700;
 }
 
 .page-link:focus {
@@ -1157,6 +1163,7 @@ p {
   border-color: #FFF;
   box-shadow: none;
   outline: none;
+  font-weight: 700;
 }
 
 .page-arrow {
