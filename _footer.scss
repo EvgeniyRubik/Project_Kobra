@@ -1,3 +1,38 @@
+.advantage{
+    background-color: #222224;
+}
+
+.advantage_main-box{
+    width: 1140px;
+    padding: 104px 0px 104px 0px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.advantage_item-box{
+    width: 360px;
+    height: 134px;
+    margin: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.advantage-box_header{
+    color: #FBFBFB;
+    font-size: 19.96px;
+}
+
+.advantage-box_text{
+    font-family: "Lato-Light";
+    color: #FBFBFB;
+    font-size: 13.97px;
+}
+
+
 .footer_top-box{
 	margin: auto;
 	display: flex;
@@ -25,8 +60,6 @@
 	font-family: "Lato-Italic";
 }
 
-.footer_subscribe{
-}
 
 .subscribe_text{
 	text-align: center;
@@ -100,7 +133,7 @@
 	justify-content: space-between;
 }
 
-.facebook_blok{
+.social_blok{
 	display: block;
 	text-align: center;
 	line-height: 2;	
@@ -110,53 +143,7 @@
 	color: #000;
 }
 
-.facebook_blok:hover{
+.social_blok:hover{
 	color: #fff;
 	background: #F16D7F;
-}
-
-.instagram_blok{
-	display: block;
-	text-align: center;
-	line-height: 2;	
-	width: 32px;
-	height: 32px;
-	background: #fff;
-	color: #000;
-}
-
-.instagram_blok:hover{
-	color: #fff;
-	background: #F16D7F;
-}
-
-.pinterest_blok{
-	display: block;
-	text-align: center;
-	line-height: 2;	
-	width: 32px;
-	height: 32px;
-	background: #fff;
-	color: #000;
-}
-
-.pinterest_blok:hover{
-	color: #fff;
-	background: #F16D7F;
-}
-
-.twitter_blok{
-	display: block;
-	text-align: center;
-	line-height: 2;	
-	width: 32px;
-	height: 32px;
-	background: #fff;
-	color: #000;
-
-}
-
-.twitter_blok:hover{
-	color: #fff;
-	background: #F16D7F;	
 }
