@@ -4,6 +4,18 @@
   font-family: 'Lato-Regular';
 }
 
+a {
+  text-decoration: none;
+}
+
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+}
+
 /*
         $border-radius;
 $pagination-margin-start:           -$pagination-border-width;
@@ -26,19 +38,6 @@ $pagination-transition:              color .15s ease-in-out, background-color .1
 $pagination-border-radius-sm:       $border-radius-sm;
 $pagination-border-radius-lg:       $border-radius-lg;
 */
-a {
-  text-decoration: none;
-}
-
-p {
-  margin: 0;
-}
-
-ul {
-  margin: 0;
-}
-
-/*!!!!!_____MAIN_____!!!!!*/
 /*-----header-----*/
 .header {
   background-color: #222222;
@@ -46,23 +45,16 @@ ul {
 
 .header_main-blok {
   margin: auto;
-  width: 1600px;
+  width: 1140px;
   height: 75px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 
 .header_blok1 {
   width: 111px;
   height: 38px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.header_blok2 {
-  width: 168px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -82,6 +74,13 @@ ul {
 .search {
   width: 26px;
   height: 26.79px;
+}
+
+.header_blok2 {
+  width: 168px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .menu {
@@ -161,9 +160,15 @@ ul {
 }
 
 /*-----item-----*/
-.item_container {
+.item-sec {
   margin: 128px auto 18px auto;
   text-align: center;
+}
+
+.item_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .item_header-1 {
@@ -180,15 +185,15 @@ ul {
 
 .item_box {
   width: 1140px;
-  margin: auto;
+  margin-left: 10px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
 }
 
 .item {
   position: relative;
   width: 360px;
+  margin-right: 20px;
   text-align: left;
   background-color: #F8F8F8;
   margin-bottom: 30px;
@@ -446,6 +451,7 @@ ul {
   background: #F16D7F;
 }
 
+/*!!!!!_____MAIN_____!!!!!*/
 /*-----top-----*/
 .top {
   background-color: #F1E4E6;
@@ -465,6 +471,7 @@ ul {
 }
 
 .brand_text-1 {
+  margin-bottom: -10px;
   font-size: 48px;
   font-family: 'Lato-Black';
 }
@@ -495,14 +502,6 @@ ul {
   align-content: space-between;
 }
 
-.top_bloks {
-  width: 360px;
-  height: 260px;
-  background-color: rgba(33, 22, 22, 0.7);
-  display: flex;
-  justify-content: center;
-}
-
 .top_bloks_link {
   display: block;
   height: 260px;
@@ -510,6 +509,14 @@ ul {
 
 .top_bloks_link:hover {
   box-shadow: 0px 5px 20px 10px black;
+}
+
+.top_bloks {
+  width: 360px;
+  height: 260px;
+  background-color: rgba(21, 16, 16, 0.7);
+  display: flex;
+  justify-content: center;
 }
 
 .top_bloks_img {
@@ -577,22 +584,18 @@ ul {
 }
 
 .extra_header-blok {
-  width: 1600px;
   margin: auto;
+  width: 1140px;
+  height: 75px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .product_h1 {
   font-size: 24px;
   color: #F16D7F;
   font-weight: normal;
-}
-
-.breadcrumb {
-  padding: 0;
-  list-style: none;
-  background-color: #eee;
 }
 
 .breadcrumb_li {
@@ -608,6 +611,7 @@ ul {
 }
 
 .breadcrumb_link {
+  padding: 4px;
   color: #636363;
   font-family: 'Lato-Light';
 }
@@ -642,19 +646,12 @@ ul {
   display: block;
   background-color: rgba(42, 42, 42, 0.15);
   text-align: center;
-}
-
-.slider_arrow > .fa-solid {
   font-size: 25px;
   color: #000;
   line-height: 47px;
 }
 
-.slider_arrow:hover .fa-angle-left {
-  color: #F16D7F;
-}
-
-.slider_arrow:hover .fa-angle-right {
+.slider_arrow:hover {
   color: #F16D7F;
 }
 
@@ -746,6 +743,7 @@ ul {
   padding: 1px;
   z-index: 2;
   border: 1px solid rgba(0, 0, 0, 0);
+  background-color: #FFF;
 }
 
 .filter_text {
@@ -784,7 +782,6 @@ ul {
 }
 
 .slider_filter[open] {
-  background-color: #FFF;
   border: 1px solid #EAEAEA;
 }
 
@@ -933,6 +930,7 @@ ul {
 }
 
 .catalog-checkbox {
+  width: 410px;
   display: flex;
   margin: 0px auto 0px auto;
 }
@@ -971,10 +969,6 @@ ul {
 }
 
 .catalog-checkbox-header:hover {
-  color: #F26376;
-}
-
-.catalog-checkbox-header:hover .catalog-checkbox-header:after {
   color: #F26376;
 }
 
@@ -1022,10 +1016,6 @@ ul {
 .page-item {
   display: flex;
   align-items: center;
-}
-
-.page-item:hover {
-  background-color: white;
 }
 
 .page-link {

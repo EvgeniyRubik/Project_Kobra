@@ -6,23 +6,16 @@
 
 .header_main-blok {
   margin: auto;
-  width: 1600px;
+  width: 1140px;
   height: 75px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 
 .header_blok1 {
   width: 111px;
   height: 38px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.header_blok2 {
-  width: 168px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -42,6 +35,15 @@
 .search {
   width: 26px;
   height: 26.79px;
+}
+
+
+
+.header_blok2 {
+  width: 168px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .menu {
