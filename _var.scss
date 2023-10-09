@@ -1,11 +1,27 @@
+@mixin txt($cl, $ff, $fw, $fs, $lh){
+    color:$cl;
+    font-family: $ff;
+    font-weight: $fw;
+    font-size: $fs;
+    line-height: $lh;    
+} 
+
+.container{
+    width: 1140px;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
 $dedicated-text-color1: #F16D7F;
 $dedicated-text-color2: #EF5B70;
-
-
-
-
-
-
 $pagination-color:                  #C4C4C4;
 
 $pagination-border-color:           #EBEBEB;
@@ -33,6 +49,10 @@ $pagination-padding-y-sm:           .25rem;
 $pagination-padding-x-sm:           .5rem;
 $pagination-padding-y-lg:           .75rem;
 $pagination-padding-x-lg:           1.5rem;
+
+   
+
+
 /*
         $border-radius;
 $pagination-margin-start:           -$pagination-border-width;
