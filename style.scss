@@ -195,8 +195,8 @@ ul {
 
 .extra_header-blok{
     margin: auto;
-    width: 1140px;
-    height: 75px;
+    width: 75%;
+    min-height: 75px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -853,9 +853,6 @@ input::-webkit-inner-spin-button {
 
 
 
-.order-details{
-
-}
 
 .delivery{
     width: 360px;
@@ -951,6 +948,169 @@ input::-webkit-inner-spin-button {
     font-family:'Lato-Bold';
     font-size: 17px;    
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            /*!!!!!_____REGISTRATION_____!!!!!*/
+
+
+.registration-sec{
+
+}
+.registration-blok{
+    width: 75%;
+    margin: auto;
+    margin-top: 64px; 
+    margin-bottom: 96px;
+    display: flex; 
+    justify-content: space-between; 
+}
+
+.registration-blok_left{
+    width: 32%; 
+}
+.registration_form__header{
+    font-size: 16px;
+    font-family: 'Lato-Light';
+    color: #222222;
+}
+.registration_input__text{
+    margin-top: 20px;
+    padding: 13px;
+    font-size: 13px;
+    font-family: 'Lato-Light';
+    width: 100%;
+}
+.registration_input__gender-blok{
+    display: flex;
+    align-items: center;
+    margin-top: 31px;
+}
+.registration_input__gender{
+    width: 17px;
+    height: 17px;
+}
+.registration_input__gender-text{
+    margin-left: 10px;
+    margin-right: 20px;
+    font-size: 11px;
+    display: inline;
+    font-family: 'Lato-Light';
+    color: #000;
+}
+.registration_form__text{
+    margin-top: 15px;
+    font-size: 13px;
+    color: #B1B1B1; 
+    font-family: 'Lato-Light';  
+}
+.registration__button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #F16D7F;
+    border: 1px solid #F16D7F;
+    margin-top: 39px;
+    width: 156px;
+    height: 50px;
+    
+}
+.registration__button > i {
+    margin-left: 20px;
+    font-size: 14px;
+    color: #fff;
+    transition: 1s;
+}
+.registration__button_text{
+    font-family: 'Lato-Regular';
+    font-size: 14px;
+    color: #fff; 
+    transition: 1s;     
+}
+.registration__button:hover {
+    background-color: #fff;
+    .registration__button_text{
+        color: #F16D7F;
+    }
+    .fa-arrow-right-long{
+        color: #F16D7F;
+    }
+}
+
+
+.registration-blok_right{
+    width: 56%;    
+}
+.registration_advantages-text{
+    font-family: 'Lato-Light';
+    font-size: 24px;
+    margin-bottom: 22px;
+    &__paragraph{
+        margin-bottom: 16px;
+    }
+}
+.registration_advantages-text>i{
+    margin-right: 22px;
+}
+
+
+@media screen and (max-width:768px) {
+
+    .extra_header-blok{
+
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:375px) {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
