@@ -20,7 +20,7 @@ ul {
 
 @import "var";
         /*-----header-----*/
-@import "header";
+@import "header&extra_header";
         /*-----item-----*/
 @import "item";
         /*-----footer-----*/
@@ -185,22 +185,7 @@ ul {
 
 
                      /*!!!!!_____PRODUCT_____!!!!!*/
-
-
-        /*-----extra_header-----*/                                      
-.extra_header{
-    background-color: #F8F3F4;
-    padding: 60px 0px;
-}
-
-.extra_header-blok{
-    margin: auto;
-    width: 75%;
-    min-height: 75px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+                         
 
 .product_h1{
     font-size: 24px;
@@ -997,6 +982,10 @@ input::-webkit-inner-spin-button {
     font-family: 'Lato-Light';
     width: 100%;
 }
+
+.registration_input__text::-webkit-input-placeholder {
+    color: rgba(0,0,0,0.4);
+}
 .registration_input__gender-blok{
     display: flex;
     align-items: center;
@@ -1073,12 +1062,51 @@ input::-webkit-inner-spin-button {
 
 @media screen and (max-width:768px) {
 
-    .extra_header-blok{
-
+    .header{
+        padding-left: 32px;
+        padding-right: 32px;
     }
-
-
-
+    .header_main-blok{
+        width: 100%;
+    }
+    .extra_header{
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .extra_header-blok{
+        width: 100%;
+    }
+    .registration-sec{
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .registration-blok{
+        width: 100%;
+    }
+    .footer_top-box{
+        flex-direction: column;
+        justify-content: center;
+        height: 614px;
+    }
+    .footer_citation{
+        margin-top: 64px;
+    }
+    .footer_img{
+        height: 614px;
+        width: 100%; 
+        object-fit: cover; 
+        object-position: -350px; 
+    }
+    .footer_bottom{
+        padding-left: 32px;
+        padding-right: 32px; 
+    }
+    .footer_bottom-box{
+        width: 100%;
+    }
+    .registration_advantages-text{
+        font-size: 16px;
+    }
 }
 
 
