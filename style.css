@@ -648,9 +648,11 @@ $pagination-border-radius-lg:       $border-radius-lg;
 }
 
 .slider_img-box {
-  width: 1600px;
+  width: 100%;
   height: 777px;
   margin: auto;
+  padding-left: 145px;
+  padding-right: 145px;
   display: flex;
   justify-content: space-between;
   align-items: center;
