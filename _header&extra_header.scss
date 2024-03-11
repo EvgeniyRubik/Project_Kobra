@@ -122,8 +122,37 @@
   line-height: 32px;
 }
 
+@media screen and (max-width:768px){
+  .header{
+        padding-left: 32px;
+        padding-right: 32px;
+  }
+  .header_main-blok{
+      width: 100%;
+  }
+  .extra_header{
+      padding-left: 16px;
+      padding-right: 16px;
+  }
+  .extra_header-blok{
+      width: 100%;    
+  }
+}
 
-
+@media screen and (max-width:375px) {
+  .header_blok2{
+      justify-content: right;
+  }
+  .profile{
+      display: none;
+  }
+  .header-basket-link{
+      display: none;
+  }
+  .extra_header-blok{
+      justify-content: center;
+  }
+}    
 
 
 

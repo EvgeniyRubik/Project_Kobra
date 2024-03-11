@@ -97,16 +97,21 @@ ul {
     display: block;
     height: 260px;
 }
-.top_bloks_link:hover{
-    box-shadow: 0px 5px 20px 10px rgba(0, 0, 0, 1);
-}
 
 .top_bloks{
     width: 360px;
     height: 260px;
     background-color: rgba(21, 16, 16, 0.7);
+    box-shadow: 0px 5px 20px 10px rgba(0, 0, 0, 0);
     display: flex;
     justify-content: center;
+    transition: 1s;
+}
+
+
+.top_bloks_link:hover .top_bloks{
+    background-color: rgba(21, 16, 16, 0.3);
+    box-shadow: 0px 5px 20px 10px rgba(0, 0, 0, 1);
 }
 
 .top_bloks_img{
@@ -140,19 +145,28 @@ ul {
 .accesories{
     width: 1140px;
     height: 180px;
-    background-color: rgba(33, 22, 22, 0.7);
+    background-color: rgba(33, 22, 22, 0.7);  
     align-self: flex-end;
     display: flex;
     justify-content: center;
+    transition: background-color 1s;
 }
 
 .accesories_link{
     display: block;
     height: 180px;
+    box-shadow: 0px 5px 20px 10px rgba(0, 0, 0, 0);
+    transition: box-shadow 1s;
 }
 
 .accesories_link:hover{
     box-shadow: 0px 5px 20px 10px rgba(0, 0, 0, 1);
+    transition: box-shadow 1s;
+}
+
+.accesories_link:hover .accesories{
+    background-color: rgba(33, 22, 22, 0.3);
+    transition: background-color 1s;
 }
 
 .accesories_img{
@@ -1023,19 +1037,19 @@ input::-webkit-inner-spin-button {
     margin-top: 39px;
     width: 156px;
     height: 50px;
-    
+    transition: 1s;
 }
 .registration__button > i {
     margin-left: 20px;
     font-size: 14px;
     color: #fff;
-    transition: 1s;
+    
 }
 .registration__button_text{
     font-family: 'Lato-Regular';
     font-size: 14px;
     color: #fff; 
-    transition: 1s;     
+         
 }
 .registration__button:hover {
     background-color: #fff;
@@ -1045,6 +1059,7 @@ input::-webkit-inner-spin-button {
     .fa-arrow-right-long{
         color: #F16D7F;
     }
+
 }
 
 
@@ -1066,20 +1081,6 @@ input::-webkit-inner-spin-button {
 
 @media screen and (max-width:768px) {
 
-    .header{
-        padding-left: 32px;
-        padding-right: 32px;
-    }
-    .header_main-blok{
-        width: 100%;
-    }
-    .extra_header{
-        padding-left: 16px;
-        padding-right: 16px;
-    }
-    .extra_header-blok{
-        width: 100%;
-    }
     .registration-sec{
         padding-left: 16px;
         padding-right: 16px;
@@ -1087,61 +1088,15 @@ input::-webkit-inner-spin-button {
     .registration-blok{
         width: 100%;
     }
-    .footer_top-box{
-        flex-direction: column;
-        justify-content: center;
-        height: 614px;
-    }
-    .footer_citation{
-        margin-top: 64px;
-    }
-    .footer_img{
-        height: 614px;
-        width: 100%; 
-        object-fit: cover; 
-        object-position: -350px; 
-    }
-    .footer_bottom{
-        padding-left: 32px;
-        padding-right: 32px; 
-    }
-    .footer_bottom-box{
-        width: 100%;
-    }
+    
     .registration_advantages-text{
         font-size: 16px;
     }
 }
 
 
-
-
-
-
-
-
-
-
 @media screen and (max-width:375px) {
-    .header_blok2{
-        justify-content: right;
-    }
-    .profile{
-        display: none;
-    }
-    .header-basket-link{
-        display: none;
-    }
-    .extra_header-blok{
-        justify-content: center;
-    }
 
-    .citation_text{
-        font-size: 18px;
-    }
-    .subscribe_text{
-        font-size: 14px;
-    }
     .registration-blok{
         flex-direction: column;
     }
@@ -1151,28 +1106,6 @@ input::-webkit-inner-spin-button {
     .registration-blok_right{
         width: 100%;
         margin-top: 40px; 
-    }
-    .footer_citation{
-        width: 98%;
-    }
-    .footer_subscribe{
-        width: 98%;
-    }
-    .subscribe_form{
-        width: 98%;
-    }
-    .subscribe_fieldset{
-        width: 98%;
-    }
-    .footer_bottom-box{
-        flex-direction: column-reverse;
-    }
-    .footer_bottom-left{
-        margin-top: 25px;
-        margin-bottom: 25px;
-    }
-    .footer_bottom-right{
-        margin-top: 43px;
     }
 }
 
