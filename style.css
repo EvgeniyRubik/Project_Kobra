@@ -360,40 +360,6 @@ $pagination-border-radius-lg:       $border-radius-lg;
 }
 
 /*-----footer-----*/
-.advantage {
-  background-color: #222224;
-}
-
-.advantage_main-box {
-  width: 1140px;
-  padding: 104px 0px 104px 0px;
-  margin: auto;
-  display: flex;
-  justify-content: space-between;
-}
-
-.advantage_item-box {
-  width: 360px;
-  height: 134px;
-  margin: 20px;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.advantage-box_header {
-  color: #FBFBFB;
-  font-size: 19.96px;
-}
-
-.advantage-box_text {
-  font-family: "Lato-Light";
-  color: #FBFBFB;
-  font-size: 13.97px;
-}
-
 .footer_top {
   display: flex;
   min-height: 448px;
@@ -401,6 +367,33 @@ $pagination-border-radius-lg:       $border-radius-lg;
   margin: auto;
 }
 
+.footer_top:before {
+  content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-image: url(./img/footer.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  opacity: 0.5;
+}
+
+/*
+.footer_img{
+	width: 100%;
+	min-height: 448px;
+	z-index: -1;   
+    object-fit: cover; 
+    object-position: left; 
+    background-color: rgba(244, 244, 244, 1);
+    opacity: 0.5;
+}
+*/
 .footer_top-box {
   display: flex;
   align-items: center;
@@ -408,16 +401,6 @@ $pagination-border-radius-lg:       $border-radius-lg;
   width: 100%;
   min-height: 448px;
   position: absolute;
-}
-
-.footer_img {
-  width: 100%;
-  min-height: 448px;
-  z-index: -1;
-  object-fit: cover;
-  object-position: left;
-  background-color: #f4f4f4;
-  opacity: 0.5;
 }
 
 .footer_citation {
@@ -724,6 +707,40 @@ $pagination-border-radius-lg:       $border-radius-lg;
   height: 50px;
   align-self: center;
   z-index: 1;
+}
+
+.advantage {
+  background-color: #222224;
+}
+
+.advantage_main-box {
+  width: 1140px;
+  padding: 104px 0px 104px 0px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.advantage_item-box {
+  width: 360px;
+  height: 134px;
+  margin: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.advantage-box_header {
+  color: #FBFBFB;
+  font-size: 19.96px;
+}
+
+.advantage-box_text {
+  font-family: "Lato-Light";
+  color: #FBFBFB;
+  font-size: 13.97px;
 }
 
 /*!!!!!_____PRODUCT_____!!!!!*/

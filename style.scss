@@ -77,6 +77,8 @@ ul {
 
 
 
+
+
         /*-----category-----*/
 .category{
     margin-top: 65px;
@@ -180,6 +182,76 @@ ul {
     align-self: center;
     z-index: 1;
 }
+
+
+
+
+
+
+
+
+
+.advantage{
+    background-color: #222224;
+}
+
+.advantage_main-box{
+    width: 1140px;
+    padding: 104px 0px 104px 0px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.advantage_item-box{
+    width: 360px;
+    height: 134px;
+    margin: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.advantage-box_header{
+    color: #FBFBFB;
+    font-size: 19.96px;
+}
+
+.advantage-box_text{
+    font-family: "Lato-Light";
+    color: #FBFBFB;
+    font-size: 13.97px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -486,6 +558,22 @@ ul {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                         /*!!!!!_____CATALOG_____!!!!!*/
 
 .catalog-navigation-sec {
@@ -742,7 +830,31 @@ ul {
 
 
 
-        /*!!!!!_____CART_____!!!!!*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                         /*!!!!!_____CART_____!!!!!*/
 
 .purchases_container{
     @extend .container;
@@ -970,6 +1082,23 @@ input::-webkit-inner-spin-button {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             /*!!!!!_____REGISTRATION_____!!!!!*/
 
 
@@ -1108,6 +1237,25 @@ input::-webkit-inner-spin-button {
         margin-top: 40px; 
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
