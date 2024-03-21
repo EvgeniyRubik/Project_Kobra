@@ -1233,6 +1233,10 @@ $pagination-border-radius-lg:       $border-radius-lg;
   height: 306px;
 }
 
+.shopping-list__img:hover {
+  filter: brightness(30%);
+}
+
 .shopping-list__description {
   width: 232px;
   height: 222px;

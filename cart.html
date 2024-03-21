@@ -81,7 +81,9 @@
 
 			<div class="shopping-list_container">
 				<div class="shopping-list__item">
-					<img class="shopping-list__img" src="./img/item_img3.png" alt="">
+					<a href="product.html">
+						<img class="shopping-list__img" src="./img/item_img3.png" alt="">
+					</a>
 					<div class="shopping-list__description-blok">
 						<div class="shopping-list__description">
 							<p class="shopping-list__description_header">MANGO PEOPLE T-SHIRT	
@@ -95,7 +97,7 @@
 
 							<form class="shopping-list__description_fieldset">
 								<p class="shopping-list__description_text">Quantity:
-								<input class="shopping-list__description_input" type="number" name="quantity" value="2" >
+								<input class="shopping-list__description_input" type="number" name="quantity" value="2" min="1" max="100">
 								</p>
 							</form>
 						</div>	
@@ -106,7 +108,9 @@
 				</div>
 
 				<div class="shopping-list__item">
-					<img class="shopping-list__img" src="./img/item_img7.png" alt="">
+					<a href="product.html">	
+						<img class="shopping-list__img" src="./img/item_img7.png" alt="">
+					</a>	
 					<div class="shopping-list__description-blok">
 						<div class="shopping-list__description">
 							<p class="shopping-list__description_header">MANGO PEOPLE T-SHIRT	
@@ -120,7 +124,7 @@
 
 							<form class="shopping-list__description_fieldset">
 								<p class="shopping-list__description_text">Quantity:
-								<input class="shopping-list__description_input" type="number" name="quantity" value="2" >
+								<input class="shopping-list__description_input" type="number" name="quantity" value="2" min="1" max="100">
 								</p>
 							</form>
 						</div>	
@@ -160,27 +164,29 @@
 			    		<a class="delivery__button" href="#">
 			    			<p class="delivery__button_text">GET A QUOTE</p>
 			    		</a>
+
+			    		<div class="total-price">
+			    			<p class="sub-total">
+			    				SUB TOTAL &nbsp &nbsp &nbsp $900	
+			    			</p>	
+			    		
+			    		
+			    			<p class="grand-total">
+			    				GRAND TOTAL &nbsp &nbsp  <span>$900</span>	
+			    			</p>
+				    		
+				    		<div class="total-price__border"></div>
+
+				    		<a class="proceed-to-checkout" href="#">
+				    			<p class="proceed-to-checkout_text">
+				    				PROCEED TO CHECKOUT	
+				    			</p>
+				    		</a>	
+			    		</div>
 		    		</form>
 		    	</div>
 
-		    	<div class="total-price">
-	    			<p class="sub-total">
-	    				SUB TOTAL &nbsp &nbsp &nbsp $900	
-	    			</p>	
-	    		
-	    		
-	    			<p class="grand-total">
-	    				GRAND TOTAL &nbsp &nbsp  <span>$900</span>	
-	    			</p>
-		    		
-		    		<div class="total-price__border"></div>
-
-		    		<a class="proceed-to-checkout" href="#">
-		    			<p class="proceed-to-checkout_text">
-		    				PROCEED TO CHECKOUT	
-		    			</p>
-		    		</a>	
-		    	</div>		
+		    			
 			</div> 
 
 
