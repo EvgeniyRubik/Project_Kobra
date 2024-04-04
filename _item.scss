@@ -131,16 +131,17 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	transition: all 0.5s;		
+	transition: all 0.5s;
+	background-color: #FF6A6A;		
 }
 .item_browse_text{
-	color: #F26376;
+	color: #FFFFFF;
 	font-size: 16px;
 	transition: all 0.5s;
 }
 .item_browse:hover {
-	background-color: #FF6A6A;
+	background-color: #FFFFFF;
 }
 .item_browse:hover .item_browse_text{
-	color: #FFFFFF;
+	color: #F26376;
 }
