@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Project_kobra_registration</title>
+	<script src="https://kit.fontawesome.com/7678e6cb17.js" crossorigin="anonymous"></script>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	
+	<header class="header">
+		<div class="header_main-blok">
+			<div class="header_blok1">
+				<a class="logo-link"href="main.html">
+					<img class="logo" src="./img/logo.png">
+				</a>	
+			    <img class="search" src="./img/search.png">
+			</div>
+
+			<div class="header_blok2">
+				<nav class="menu">
+					<img class="menu_img" src="./img/menu.png">	
+					<div class="menu_list">
+						<h2 class="menu_mega-header">MENU</h2>
+						<h3 class="menu_header">MAN</h3>
+							<a class="menu_link" href="#">Accessories</a>
+							<a class="menu_link" href="#">Bags</a>
+							<a class="menu_link" href="#">Denim</a>
+							<a class="menu_link" href="#">T-Shirts</a>
+						<h3 class="menu_header">WOMAN</h3>
+							<a class="menu_link" href="#">Accessories</a>
+							<a class="menu_link" href="#">Jackets & Coats</a>
+							<a class="menu_link" href="#">Polos</a>
+							<a class="menu_link" href="#">T-Shirts</a>
+							<a class="menu_link" href="#">Shirts</a>
+						<h3 class="menu_header">KIDS</h3>
+							<a class="menu_link" href="#">Accessories</a>
+							<a class="menu_link" href="#">Jackets & Coats</a>
+							<a class="menu_link" href="#">Polos</a>
+							<a class="menu_link" href="#">T-Shirts</a>
+							<a class="menu_link" href="#">Shirts</a>
+							<a class="menu_link" href="#">Bags</a>
+					</div>	
+				</nav>	
+			    <a class="profile-link" href="registration.html">
+			    <img class="profile" src="./img/profile.png">
+			    </a>
+			    <a class="header-basket-link" href="cart.html">  	<i class="header-basket fa fa-solid fa-cart-shopping"></i> </a>			
+			</div>
+		</div>	
+	</header>
+
+
+
+
+
+
+	<div class="extra_header">
+		<div class="extra_header-blok">
+			<h1 class="product_h1">REGISTRATION</h1>
+			<nav class="breadcrumb_box">
+				
+			</nav>
+		</div>
+	</div>
+
+
+
+
+
+
+
+	<section class="registration-sec">
+		<div class="registration-blok">		
+			<div class="registration-blok_left">
+				<form class="registration-form">
+		    		<fieldset>
+		    			<legend class="registration_form__header">Your Name</legend>
+		    			<input class="registration_input__text" type="text" id="first-name" name="first-name" placeholder="First Name" /><Br>
+		    			<input class="registration_input__text" type="text" id="last-name" name="last-name" placeholder="Last Name" /><Br>
+		    			<div class="registration_input__gender-blok">
+		    			<input class="registration_input__gender" type="radio" name="gender" value="Male"><p class="registration_input__gender-text">Male</p>
+						<input class="registration_input__gender" type="radio" name="gender" value="Female"><p class="registration_input__gender-text">Female</p>
+						</div>
+						<Br>
+						<legend class="registration_form__header">Login details</legend>
+		    			<input class="registration_input__text" type="text" id="email" name="email" placeholder="Email" required pattern="\S+@[a-z]+.[a-z]+"/><Br>
+		    			<input class="registration_input__text" type="text" id="password" name="password" placeholder="Password" required/><Br>
+		    			<p class="registration_form__text">
+				    		Please use 8 or more characters, with at least 1 number and a mixture of uppercase and lowercase letters
+				    	</p>
+			    		<a class="registration__button" href="#">
+				    		<p class="registration__button_text">JOIN NOW</p>
+				    		<i class="fa-solid fa-arrow-right-long"></i>
+				    	</a>
+		    		</fieldset>	
+		    	</form>
+			</div>	
+
+
+
+
+
+
+
+
+			<article class="registration-blok_right">
+				<p class="registration_advantages-text">
+					LOYALTY HAS ITS PERKS
+				</p>
+				<p class="registration_advantages-text">
+					Get in on the loyalty program where you can earn points and unlock serious perks. Starting with these as soon as you join:
+				</p>
+
+				<p class="registration_advantages-text registration_advantages-text__paragraph"><i class="fa-solid fa-check"></i>15% off welcome offer
+				</p>
+				<p class="registration_advantages-text registration_advantages-text__paragraph">
+					<i class="fa-solid fa-check"></i>Free shipping, returns and exchanges on all orders
+				</p>
+				<p class="registration_advantages-text registration_advantages-text__paragraph">
+					<i class="fa-solid fa-check"></i>$10 off a purchase on your birthday
+				</p>
+				<p class="registration_advantages-text registration_advantages-text__paragraph">
+					<i class="fa-solid fa-check"></i>Early access to products
+				</p>
+				<p class="registration_advantages-text registration_advantages-text__paragraph">
+					<i class="fa-solid fa-check"></i>Exclusive offers & rewards
+				</p>
+			</article>	
+		</div>
+	</section>
+
+
+
+
+
+	<footer class="footer">
+		
+
+		<section class="footer_top">
+			<!--<img class="footer_img" src="./img/footer.png">-->
+			<div class="footer_top-box">
+				
+				<figure class="footer_citation">
+					<img class="citation_img" src="./img/footer_citation.png">
+					<p class="citation_text">
+						“Vestibulum quis porttitor dui! Quisque viverra nunc mi, <span>a pulvinar purus condimentum</span>“
+					</p>
+				</figure>
+
+				<div class="footer_subscribe">
+					<p class="subscribe_text"><span>SUBSCRIBE</span> <br>FOR OUR NEWLETTER AND PROMOTION</p>
+					<form class="subscribe_form">
+						<fieldset class="subscribe_fieldset">
+							<input class="subscribe_form-email" id="email" placeholder="Enter Your Email" required pattern="\S+@[a-z]+.[a-z]+"><input class="subscribe_form-button" type="submit" value="Subscribe">
+						</fieldset>
+						
+					</form>
+				</div>
+
+			</div>	
+		</section>
+
+
+		<section class="footer_bottom">
+			<div class="footer_bottom-box">
+				<div class="footer_bottom-left">
+					<p class="footer_bottom-left-text">&copy 2021 Brand All Rights Reserved</p>.
+				</div>
+				<nav class="footer_bottom-right">
+					<a class="social_blok" href="#">
+						<i class="fa fa-brands fa-facebook-f"></i>
+					</a>
+					<a class="social_blok" href="#">
+						<i class="fa fa-brands fa-instagram"></i>
+					</a>
+					<a class="social_blok" href="#">
+						<i class="fa fa-brands fa-pinterest-p"></i>
+					</a>
+					<a class="social_blok" href="#">
+						<i class="fa fa-brands fa-twitter"></i>
+					</a>
+				</nav>
+			</div>
+		</section>
+	</footer>
+	
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

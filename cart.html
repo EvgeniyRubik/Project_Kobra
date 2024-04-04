@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Project_kobra_cart</title>
+	<script src="https://kit.fontawesome.com/7678e6cb17.js" crossorigin="anonymous"></script>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	
+
+	<header class="header">
+		<div class="header_main-blok">
+			<div class="header_blok1">
+				<a class="logo-link"href="main.html">
+					<img class="logo" src="./img/logo.png">
+				</a>	
+			    <img class="search" src="./img/search.png">
+			</div>
+
+			<div class="header_blok2">
+				<nav class="menu">
+					<img class="menu_img" src="./img/menu.png">	
+					<div class="menu_list">
+						<h2 class="menu_mega-header">MENU</h2>
+						<h3 class="menu_header">MAN</h3>
+							<a class="menu_link" href="#">Accessories</a>
+							<a class="menu_link" href="#">Bags</a>
+							<a class="menu_link" href="#">Denim</a>
+							<a class="menu_link" href="#">T-Shirts</a>
+						<h3 class="menu_header">WOMAN</h3>
+							<a class="menu_link" href="#">Accessories</a>
+							<a class="menu_link" href="#">Jackets & Coats</a>
+							<a class="menu_link" href="#">Polos</a>
+							<a class="menu_link" href="#">T-Shirts</a>
+							<a class="menu_link" href="#">Shirts</a>
+						<h3 class="menu_header">KIDS</h3>
+							<a class="menu_link" href="#">Accessories</a>
+							<a class="menu_link" href="#">Jackets & Coats</a>
+							<a class="menu_link" href="#">Polos</a>
+							<a class="menu_link" href="#">T-Shirts</a>
+							<a class="menu_link" href="#">Shirts</a>
+							<a class="menu_link" href="#">Bags</a>
+					</div>	
+				</nav>	
+			    <a class="profile-link" href="registration.html">
+			    <img class="profile" src="./img/profile.png">
+			    </a>
+			    <a class="header-basket-link" href="cart.html">  	<i class="header-basket fa fa-solid fa-cart-shopping"></i> </a>			
+			</div>
+		</div>	
+	</header>
+
+
+
+
+
+
+
+
+	<div class="extra_header">
+		<div class="extra_header-blok">
+			<h1 class="product_h1">SHOPPING CART</h1>
+			<nav class="breadcrumb_box">
+				
+			</nav>
+		</div>
+	</div>
+
+
+
+
+
+
+
+	<section class="purchases-sec">
+		<div class="purchases_container">
+			
+
+			<div class="shopping-list_container">
+				<div class="shopping-list__item">
+					<a href="product.html">
+						<img class="shopping-list__img" src="./img/item_img3.png" alt="">
+					</a>
+					<div class="shopping-list__description-blok">
+						<div class="shopping-list__description">
+							<p class="shopping-list__description_header">MANGO PEOPLE T-SHIRT	
+							</p>
+							<p class="shopping-list__description_text">Price:<span> $300</span>	
+							</p>
+							<p class="shopping-list__description_text">Color: Red	
+							</p>
+							<p class="shopping-list__description_text">Size: Xl	
+							</p>
+
+							<form class="shopping-list__description_fieldset">
+								<p class="shopping-list__description_text">Quantity:
+								<input class="shopping-list__description_input" type="number" name="quantity" value="2" min="1" max="100">
+								</p>
+							</form>
+						</div>	
+					</div>
+					<a class="shopping-list__cancel_link" href="#">
+						<i class="fa-solid fa-xmark"></i>
+					</a>
+				</div>
+
+				<div class="shopping-list__item">
+					<a href="product.html">	
+						<img class="shopping-list__img" src="./img/item_img7.png" alt="">
+					</a>	
+					<div class="shopping-list__description-blok">
+						<div class="shopping-list__description">
+							<p class="shopping-list__description_header">MANGO PEOPLE T-SHIRT	
+							</p>
+							<p class="shopping-list__description_text">Price:<span> $300</span>	
+							</p>
+							<p class="shopping-list__description_text">Color: Red	
+							</p>
+							<p class="shopping-list__description_text">Size: Xl	
+							</p>
+
+							<form class="shopping-list__description_fieldset">
+								<p class="shopping-list__description_text">Quantity:
+								<input class="shopping-list__description_input" type="number" name="quantity" value="2" min="1" max="100">
+								</p>
+							</form>
+						</div>	
+					</div>
+					<a class="shopping-list__cancel_link" href="#">
+						<i class="fa-solid fa-xmark"></i>
+					</a>
+				</div>
+
+
+				<div class="shopping-list__buttons_container">
+					<a class="shopping-list__buttons_link" href="#">	
+						<p class="shopping-list__buttons_text">
+							CLEAR SHOPPING CART
+						</p>
+					</a>
+
+					<a class="shopping-list__buttons_link" href="#">
+						<p class="shopping-list__buttons_text">
+							CONTINUE SHOPPING
+						</p>
+					</a>
+				</div>
+			</div>
+			
+
+			<div class="order-details">
+		    	<div class="delivery">
+		    		<form class="delivery__form">
+			    		<fieldset>
+			    			<legend class="delivery__header">SHIPPING ADRESS
+			    			</legend>
+			    			<input class="delivery__input" type="text" id="city" name="city" placeholder="New York" />
+			    			<input class="delivery__input" type="text" id="state" name="state" placeholder="State" />
+			    			<input class="delivery__input" type="text" id="postcode" name="postcode" placeholder="Postcode / Zip" />
+			    		</fieldset>	
+			    		<a class="delivery__button" href="#">
+			    			<p class="delivery__button_text">GET A QUOTE</p>
+			    		</a>
+
+			    		<div class="total-price">
+			    			<p class="sub-total">
+			    				SUB TOTAL &nbsp &nbsp &nbsp $900	
+			    			</p>	
+			    		
+			    		
+			    			<p class="grand-total">
+			    				GRAND TOTAL &nbsp &nbsp  <span>$900</span>	
+			    			</p>
+				    		
+				    		<div class="total-price__border"></div>
+
+				    		<a class="proceed-to-checkout" href="#">
+				    			<p class="proceed-to-checkout_text">
+				    				PROCEED TO CHECKOUT	
+				    			</p>
+				    		</a>	
+			    		</div>
+		    		</form>
+		    	</div>
+
+		    			
+			</div> 
+
+
+		</div>
+	</section>	
+
+
+
+
+
+
+
+
+	<footer class="footer">
+		
+
+		<section class="footer_top">
+			<!--<img class="footer_img" src="./img/footer.png">-->
+			<div class="footer_top-box">
+				
+				<figure class="footer_citation">
+					<img class="citation_img" src="./img/footer_citation.png">
+					<p class="citation_text">
+						“Vestibulum quis porttitor dui! Quisque viverra nunc mi, <span>a pulvinar purus condimentum</span>“
+					</p>
+				</figure>
+
+				<div class="footer_subscribe">
+					<p class="subscribe_text"><span>SUBSCRIBE</span> <br>FOR OUR NEWLETTER AND PROMOTION</p>
+					<form class="subscribe_form">
+						<fieldset class="subscribe_fieldset">
+							<input class="subscribe_form-email" id="email" placeholder="Enter Your Email" required pattern="\S+@[a-z]+.[a-z]+"><input class="subscribe_form-button" type="submit" value="Subscribe">
+						</fieldset>
+						
+					</form>
+				</div>
+
+			</div>	
+		</section>
+
+
+		<section class="footer_bottom">
+			<div class="footer_bottom-box">
+				<div class="footer_bottom-left">
+					<p class="footer_bottom-left-text">&copy 2021 Brand All Rights Reserved</p>.
+				</div>
+				<nav class="footer_bottom-right">
+					<a class="social_blok" href="#">
+						<i class="fa fa-brands fa-facebook-f"></i>
+					</a>
+					<a class="social_blok" href="#">
+						<i class="fa fa-brands fa-instagram"></i>
+					</a>
+					<a class="social_blok" href="#">
+						<i class="fa fa-brands fa-pinterest-p"></i>
+					</a>
+					<a class="social_blok" href="#">
+						<i class="fa fa-brands fa-twitter"></i>
+					</a>
+				</nav>
+			</div>
+		</section>
+	</footer>
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
